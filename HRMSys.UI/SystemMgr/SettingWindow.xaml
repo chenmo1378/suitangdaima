@@ -1,0 +1,16 @@
+﻿<Window x:Class="HRMSys.UI.SystemMgr.SettingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SettingWindow" Height="300" Width="300" Loaded="Window_Loaded">
+    <Grid>
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="8,10,0,0" Name="textBlock1" Text="公司名称" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="62,0,0,0" Name="txtCompanyName" VerticalAlignment="Top" Width="145" />
+        <CheckBox Content="启用生日提醒，提前天数" Height="16" HorizontalAlignment="Left" Margin="8,77,0,0" Name="cbBirthDayPrompt" VerticalAlignment="Top" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="8,39,0,0" Name="textBlock2" Text="公司网站" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="62,38,0,0" Name="txtCompanySite" VerticalAlignment="Top" Width="145" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="165,70,0,0" Name="txtBirthDayDays" VerticalAlignment="Top" Width="42" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="11,105,0,0" Name="textBlock3" Text="工号前缀" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="62,104,0,0" Name="txtEmployeeNumberPrefix" VerticalAlignment="Top" Width="145" />
+        <Button Content="保存" Height="23" HorizontalAlignment="Left" Margin="153,179,0,0" Name="btnSave" VerticalAlignment="Top" Width="75" Click="btnSave_Click" />
+    </Grid>
+</Window>

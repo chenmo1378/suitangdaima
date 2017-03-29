@@ -1,0 +1,5 @@
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.Model\bin\Debug\HRMSys.Model.dll
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.Model\bin\Debug\HRMSys.Model.pdb
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.Model\obj\Debug\HRMSys.Model.dll
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.Model\obj\Debug\HRMSys.Model.pdb
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.Model\obj\Debug\HRMSys.Model.csprojResolveAssemblyReference.cache

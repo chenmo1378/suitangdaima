@@ -1,0 +1,8 @@
+F:\视频教程\2012年底公开课\项目代码\HRMSys\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+F:\视频教程\2012年底公开课\项目代码\HRMSys\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+F:\视频教程\2012年底公开课\项目代码\HRMSys\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+F:\视频教程\2012年底公开课\项目代码\HRMSys\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+F:\视频教程\2012年底公开课\项目代码\HRMSys\ConsoleApplication1\bin\Debug\Ionic.Zip.dll
+F:\视频教程\2012年底公开课\项目代码\HRMSys\ConsoleApplication1\bin\Debug\NPOI.dll
+F:\视频教程\2012年底公开课\项目代码\HRMSys\ConsoleApplication1\bin\Debug\NPOI.xml
+F:\视频教程\2012年底公开课\项目代码\HRMSys\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

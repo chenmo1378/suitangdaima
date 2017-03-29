@@ -1,0 +1,25 @@
+﻿<Window x:Class="HRMSys.SystemMgr.DeptMgrWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="部门管理" Height="300" Width="300" Loaded="Window_Loaded_1" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top" Height="30">
+            <Button ToolTip="新增" Name="btnAdd" Click="btnAdd_Click">
+                <Button.Content>
+                    <Image Source="../Images/add.ico"></Image>
+                </Button.Content>
+            </Button>
+            <Button ToolTip="删除" Name="btnDel" Click="btnDel_Click">
+                <Button.Content>
+                    <Image Source="../Images/delete.ico"></Image>
+                </Button.Content>
+            </Button>
+            <!---锁定、重置密码-->
+        </ToolBar>
+        <DataGrid DockPanel.Dock="Top" AutoGenerateColumns="False" Name="datagrid" IsReadOnly="True" MouseDoubleClick="datagrid_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="名称" Width="200" Binding="{Binding Name}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

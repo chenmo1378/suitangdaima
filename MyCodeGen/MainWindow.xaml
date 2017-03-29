@@ -1,0 +1,13 @@
+﻿<Window x:Class="MyCodeGen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="16,7,0,0" Name="txtConnStr" VerticalAlignment="Top" Width="542" />
+        <Button Content="连接" Height="23" HorizontalAlignment="Left" Margin="564,7,0,0" Name="btnConnect" VerticalAlignment="Top" Width="41" Click="btnConnect_Click" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="16,36,0,0" Name="cmbTables" VerticalAlignment="Top" Width="210" IsEnabled="False" />
+        <Button Content="生成代码" Height="23" HorizontalAlignment="Left" Margin="244,36,0,0" Name="btnGenerateCode" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="btnGenerateCode_Click" />
+        <TextBox TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Height="483" HorizontalAlignment="Left" Margin="12,66,0,0" Name="txtModelCode" VerticalAlignment="Top" Width="327" IsReadOnly="True" />
+        <TextBox TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Height="483" HorizontalAlignment="Left" Margin="370,66,0,0" Name="txtDALCode" VerticalAlignment="Top" Width="396" IsReadOnly="True" />
+    </Grid>
+</Window>

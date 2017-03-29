@@ -1,0 +1,13 @@
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\bin\Debug\MyCodeGen.exe
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\bin\Debug\MyCodeGen.pdb
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\obj\x86\Debug\MainWindow.baml
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\obj\x86\Debug\MainWindow.g.cs
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\obj\x86\Debug\App.g.cs
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\obj\x86\Debug\MyCodeGen_MarkupCompile.cache
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\obj\x86\Debug\MyCodeGen.g.resources
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\obj\x86\Debug\MyCodeGen.Properties.Resources.resources
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\obj\x86\Debug\MyCodeGen.csproj.GenerateResource.Cache
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\obj\x86\Debug\MyCodeGen.exe
+F:\视频教程\2012年底公开课\项目代码\HRMSys\MyCodeGen\obj\x86\Debug\MyCodeGen.pdb
+D:\迅雷下载\随堂代码\MyCodeGen\obj\x86\Debug\MyCodeGen.exe
+D:\迅雷下载\随堂代码\MyCodeGen\obj\x86\Debug\MyCodeGen.pdb

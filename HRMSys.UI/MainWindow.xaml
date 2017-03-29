@@ -1,0 +1,24 @@
+﻿<Window x:Class="HRMSys.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="人力资源管理系统" Height="350" Width="525"
+        WindowState="Maximized" Loaded="Window_Loaded">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" Height="30">
+                <MenuItem Header="系统">
+                    <MenuItem Name="miOperatorMgr" Header="操作员管理" Click="miOperatorMgr_Click"></MenuItem>
+                    <MenuItem Name="miDeptMgr" Header="部门管理" Click="miDeptMgr_Click"></MenuItem>
+                    <MenuItem Name="miViewOperationLog" Header="查询操作日志" Click="miViewOperationLog_Click"></MenuItem>
+                    <MenuItem Name="miSetting" Header="系统设置" Click="miSetting_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="员工">
+                    <MenuItem Name="miEmployeeMgr" Header="员工管理" Click="miEmployeeMgr_Click"></MenuItem>
+                    <MenuItem Name="miBuildSalarySheet" Header="生成工资单" Click="miBuildSalarySheet_Click"></MenuItem>
+                    <MenuItem Name="miPrintSalarySheet" Header="打印工资单" Click="miPrintSalarySheet_Click"></MenuItem>
+                </MenuItem>
+            </Menu>
+            <Image DockPanel.Dock="Top"></Image>
+        </DockPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+
+这是传智播客.Net培训学员的课程随堂板书：
+1、下载安装水晶报表 for vs2010 ：http://downloads.businessobjects.com/akdlm/cr4vs2010/CRforVS_13_0.exe
+
+2、工具箱新建选项卡“水晶报表”,在【WPF组件】选择卡下添加水晶报表for vs2010提供的控件(程序集都以SAPBusinessObjects开头)。
+3、wpf项目所用的“目标框架”必须改成“.Net Framework4”，不能是4 Client。要给app.config节点的startup增加一个属性：useLegacyV2RuntimeActivationPolicy="true"， 否则运行会报异常FileNotFoundException
+4、项目中，新建项“Reporting”→CrystalReport，比如命名为MyCrystalReport1.rpt，接着对报表进行设计
+
+1）“报表头”是整个报表的头部（如果多页的话只在第一页显示），“页眉”是每页头部显示的内容，“页脚”是每页尾部显示的内容，“详细资料”是每一条数据的循环显示（类似于DataGrid、ListBox），“报表尾”用来在报表的尾部显示总和、平均值等汇总信息。
+2）“工具箱”中可以拖放“文本对象”显示固定文本，“线条对象”和“框对象”画线或者画框。
+3）参数字段：在“参数字段”上点右键，选择“新建”，给参数取名字和类型，然后把参数字段拖放到报表上。在代码中通过SetParameterValue设定参数的值，注意放到SetDataSource之后，否则会弹出输入参数值的对话框
+4）“特殊字段”可以拖放打印日期、页码、总页数等
+5）其他.Net资料和文章可以从传智播客.Net培训学院网站下载 http://net.itcast.cn
+
+5、在项目中把Model类和取数据的方法建好，然后项目要保证编译通过
+6、在“数据库字段”上点右键选择“数据库专家”，在对话框中选择“项目数据”→“.Net objects”，选中Model类（如果选不到类，说明没编译OK），然后就可以在左边的“数据库字段”中拖放字段到“详细资料”中，会在“页眉”中自动增加对应字段头，可以在“页面”的头部字段中点右键“编辑文本对象”把显示改为中文。
+7、增加“总值”、“平均值”之类，在“字段资源管理器”的“运行总计字段”新建，在对话框中选择字段和汇总类型
+公式字段，在“公式字段”上点右键“新建”，选择字段和编辑公式，然后就可以用了。
+8、
+在窗口中放置一个CrystalReportsViewer控件（不要设定Margin和width、height，会自动占全屏），例如名字为CrystalReportsViewer1
+执行方法获取数据，然后把数据设置为数据源（MyCrystalReport1是rpt文件的类名）
+MyCrystalReport1 rpt = new MyCrystalReport1();
+rpt.SetDataSource(new PersonDAL().ListAll());
+crystalReportsViewer1.ViewerCore.ReportSource = rpt; 
+参数的问题： rpt.SetParameterValue设定参数的值，注意放到rpt.SetDataSource之后，否则会弹出输入参数值的对话框

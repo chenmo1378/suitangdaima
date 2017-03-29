@@ -1,0 +1,7 @@
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.DAL\bin\Debug\HRMSys.DAL.dll
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.DAL\bin\Debug\HRMSys.DAL.pdb
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.DAL\obj\Debug\HRMSys.DAL.dll
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.DAL\obj\Debug\HRMSys.DAL.pdb
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.DAL\bin\Debug\HRMSys.Model.dll
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.DAL\bin\Debug\HRMSys.Model.pdb
+F:\视频教程\2012年底公开课\项目代码\HRMSys\HRMSys.DAL\obj\Debug\HRMSys.DAL.csprojResolveAssemblyReference.cache
